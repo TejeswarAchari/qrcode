@@ -1,0 +1,94 @@
+
+.centering{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.c{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.bg{
+background-color: #f0f0f0;
+border-radius: 10px;
+margin: 20px;
+text-align: center;
+padding:20px
+}
+
+.bg:hover{
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.05);
+}
+.button-Qr{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button-Qr:hover{
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+body{
+
+   background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(199, 87, 197, 1) 47%, rgba(219, 156, 138, 1) 71%, rgba(237, 221, 83, 1) 93%);
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+}
+
+.input-tag{
+    width: 90%;
+    
+    padding: 10px;
+    margin: 5px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.index-image{
+    height:200px;
+    border-radius: 6px;
+}
+
+.qr-page-image{
+    height:150px;
+    border-radius: 10px;
+}
+.download-btn{
+    background-color: #a74caf; /* Green */
+    border: none;
+    color: white;
+    padding:7px;
+    margin:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+   
+    cursor: pointer;
+    border-radius: 10px;
+}
+.loading-para{
+    display: none;
+}
